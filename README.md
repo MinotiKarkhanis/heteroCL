@@ -9,7 +9,8 @@ Task:
 Resources referred: 
 1) https://github.com/cornell-zhang/heterocl/tree/main
 2) https://heterocl.csl.cornell.edu/doc/tutorials/index.html
-3) Research Paper HeteroCL: A Multi-Paradigm Programming Infrastructure for
+3) Research Paper
+   HeteroCL: A Multi-Paradigm Programming Infrastructure for
    Software-Defined Reconfigurable Computing
    Yi-Hsiang Lai1*, Yuze Chi2, Yuwei Hu1, Jie Wang2, Cody Hao Yu2, 3, Yuan Zhou1, Jason Cong2, Zhiru Zhang1*
    https://www.csl.cornell.edu/~zhiruz/pdfs/heterocl-fpga2019.pdf
