@@ -5,7 +5,7 @@ cd heterocl-mlir
 git submodule update --init --recursive
 pip install . -v --user 
 
-#cd to hcl-dialect/build and expot
+#cd to hcl-dialect/build and export
 export PYTHONPATH=$(pwd)/tools/hcl/python_packages/hcl_core:${PYTHONPATH}
 
 #Go back to the root directory
