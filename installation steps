@@ -1,1 +1,17 @@
+Installing HeteroCL: 
 
+git clone https://github.com/cornell-zhang/heterocl.git heterocl-mlir
+cd heterocl-mlir
+git submodule update --init --recursive
+pip install . -v --user 
+
+#cd to hcl-dialect/build and expot
+export PYTHONPATH=$(pwd)/tools/hcl/python_packages/hcl_core:${PYTHONPATH}
+
+#Go back to the root directory
+#cd to root directory heterocl-mlir
+export LLVM_BUILD_DIR=$(pwd)/hcl-dialect/externals/llvm-project/build
+export PATH=${LLVM_BUILD_DIR}/bin:${PATH}
+
+#To make sure you have successfully installed HeteroCL run the tests
+python3 -m pytest tests
