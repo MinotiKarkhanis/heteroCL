@@ -6,3 +6,4 @@ There are three customizations in HeteroCL:
 2) Data customization which is further categorized into two types: a) loop transformation and b) parallelism
 3) Memory customization 
 The customization improve 
+
