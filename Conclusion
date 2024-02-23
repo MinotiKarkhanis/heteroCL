@@ -1,0 +1,8 @@
+HeteroCL (Heterogeneous Computing Language) is a high-level programming language designed for heterogeneous computing platforms. It is developed to facilitate the design and optimization of algorithms for systems that include diverse processing elements, such as CPUs, GPUs, FPGAs, and other accelerators.
+In HeteroCL, customizations refer to the process of modifying or tuning certain aspects of the code to improve performance or achieve specific design goals. 
+HeteroCL supports parallel execution across different processing elements, such as CPUs, GPUs, and FPGAs.
+There are three customizations in HeteroCL: 
+1) Compute customization which is further categorized into two types: a) loop transformation and b) parallelism
+2) Data customization which is further categorized into two types: a) loop transformation and b) parallelism
+3) Memory customization 
+The customization improve 
