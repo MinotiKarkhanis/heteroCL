@@ -8,7 +8,9 @@ There are three customizations in HeteroCL:
 By providing flexible customization options, HeteroCL empowers developers to optimize their applications for 
 different hardware targets while maintaining portability and productivity
 
-I have implemented a naive implementation of a compute kernel that will accept five matrices A (P X Q), B (Q x R), C (R x S), D (S x T), E (P, T), and F (P, T) and will compute F = alpha * A.B * beta * C.D + gamma * E, where alpha, beta, and gamma are three floating point constants and incorporated both Compute and Data customizations into the naive compute kernel. 
+I have implemented a naive implementation of a compute kernel that will accept five matrices 
+A (P X Q), B (Q x R), C (R x S), D (S x T), E (P, T), and F (P, T) and 
+will compute F = alpha * A.B * beta * C.D + gamma * E, where alpha, beta, and gamma are three floating point constants and incorporated both Compute and Data customizations into the naive compute kernel. 
 Through testing, I have demonstrated that these customizations significantly enhance performance. 
 To quantify the improvement, I utilized the time command in Linux to measure the execution time both with and without customization, enabling a direct comparison.
 
